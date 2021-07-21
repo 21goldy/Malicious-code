@@ -2,7 +2,6 @@ import datetime as dt
 import requests
 import subprocess
 
-# ------------------------------------ TODAY'S DATE --------------------------------------- #
 today = dt.date.today().strftime("%d/%m/%Y")
 # print(today)
 
@@ -44,6 +43,8 @@ def open_applications():
 
 
 # open_applications()
+
+# ------------------------------------ CONDITION --------------------------------------- #
 
 if today == "21/07/2021":
     with open('You_have_been_hacked.txt', 'w') as file:
